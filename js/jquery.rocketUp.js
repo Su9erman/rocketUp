@@ -19,11 +19,11 @@
 			//Default configuration
 			rocketName:"rocketUp",  //元素ID
 			UpSpeed:600,          	//滚动条回顶速度(ms)
-			rocketShow:100,		  	//回顶图标显示的高度
+			rocketShow:100,		  	//回顶图标显示临界高度
 			top:"70%",			  	//回顶图标所在位置
 			right:"0",				//同上
 			rocketSpeed:400,		//火箭回顶速度(ms)
-			background:"url(images/rocket_up.png)no-repeat"
+			background:"url(images/rocket_up.png)no-repeat" //背景图片路径
 		},config);
 
 		//定义简写，方便下面调用
